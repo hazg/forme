@@ -1,0 +1,49 @@
+.catalog
+    padding: 10px 10%
+    width: 100%
+    left: 50%
+    transform: translate(-50%, -0%)
+    display: flex
+    position: absolute
+    flex-direction: column
+    background-color: white
+    z-index: 999
+    top: 90px
+    &-container
+        display: flex
+        flex-wrap: wrap
+        justify-content: flex-start
+        align-items: center
+    &-title
+        padding-left: 24px
+        font-size: 24px
+        color: #939393
+        width: fit-content
+        margin-bottom: 10px
+        display: flex
+        align-items: center
+    &-item
+        width: 20%
+        min-width: 220px
+        max-width: 220px
+        padding: 0px 24px
+        margin-bottom: 48px
+        &-image
+            height: 120px
+            margin-bottom: 16px
+
+.flex-start
+    display: flex
+    justify-content: flex-start
+    align-items: center
+.catalog-item:hover
+    color: #2b05ff
+    cursor: pointer
+.catalog-title:hover
+    color: #2b05ff
+    cursor: pointer
+.select-title
+    font-size: 32px
+    font-weight: 700
+    color: #1c1e21
+    margin-bottom: 20px
